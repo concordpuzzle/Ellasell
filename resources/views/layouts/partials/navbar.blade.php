@@ -354,7 +354,7 @@
 
                 <ul class="navbar-nav align-items-lg-center d-flex">
                     <li class="nav-item ms-2">
-                        <a class="btn {{$ctaButtonClass}}" href="#">Download</a>
+                        <a class="btn {{$ctaButtonClass}}" href="#">Sign In</a>
                     </li>
                 </ul>
             </div>

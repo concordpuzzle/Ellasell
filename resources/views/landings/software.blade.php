@@ -11,8 +11,8 @@
                 <div class="row align-items-center text-center text-sm-start">
                     <div class="col-lg-6">
                         <div class="">
-                            <h1 class="hero-title">Speed up your <span
-                                    class="highlight highlight-warning d-inline-block">performance</span></h1>
+                            <h1 class="hero-title">AI-Powered <span
+                                    class="highlight highlight-warning d-inline-block">Small Business</span> Growth & Strategy</h1>
                             <p class="fs-16 mt-3 text-muted">
                                 Prompt makes it easier to build better website and application more quickly and with
                                 less effort
@@ -21,7 +21,7 @@
                             <div class="py-5">
                                 <div class="btn-group dropdown">
                                     <button type="button" class="btn btn-primary">
-                                        <i data-feather="download" class="icon-xs me-2"></i>Download for Ubuntu 19.04
+                                        <i data-feather="download" class="icon-xs me-2"></i>Download for Woocommerce
                                     </button>
                                     <button type="button"
                                             class="btn btn-primary dropdown-toggle dropdown-toggle-split"
