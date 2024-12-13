@@ -25,7 +25,7 @@
                         </div>
 
                         <h1 class="hero-title fw-medium">
-                            We design user experiences that <span class="highlight highlight-warning d-inline-block">works</span>
+                        Grow your small business with <span class="highlight highlight-warning d-inline-block">AI</span>
                         </h1>
 
                         <p class="mt-4 fs-18 mb-3 mb-sm-6 w-75">

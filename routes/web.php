@@ -16,9 +16,9 @@ use App\Http\Controllers\RoutingController;
 
 require __DIR__ . '/auth.php';
 
-// Remove auth middleware and make software page the main route
+// Set agency page as the main route
 Route::get('/', function () {
-    return view('landings.software');
+    return view('landings.agency');
 })->name('root');
 
 Route::group(['prefix' => '/'], function () {
