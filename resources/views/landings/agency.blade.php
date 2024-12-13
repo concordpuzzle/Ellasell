@@ -33,10 +33,10 @@
                             and interactive product experiences.
                         </p>
 
-                        <a href="#" class="btn btn-secondary">
-                            <i class="icon-xxs me-2" data-feather="arrow-down"></i> View Our Work
+                        <a href="#" class="btn btn-warning">
+                            <i class="icon-xxs me-2" data-feather="arrow-down"></i> Try Now, For Free
                         </a>
-                        <a href="#" class="btn btn-outline-secondary ms-2">
+                        <a href="#" class="btn btn-outline-warning ms-2">
                             Learn More
                         </a>
                     </div>
