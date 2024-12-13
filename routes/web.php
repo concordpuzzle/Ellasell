@@ -16,10 +16,13 @@ use App\Http\Controllers\RoutingController;
 
 require __DIR__ . '/auth.php';
 
-Route::group(['prefix' => '/', 'middleware' => 'auth'], function () {
-    Route::get('', [RoutingController::class, 'index'])->name('root');
+// Remove auth middleware and make software page the main route
+Route::get('/', function () {
+    return view('landings.software');
+})->name('root');
+
+Route::group(['prefix' => '/'], function () {
     Route::get('{first}/{second}/{third}', [RoutingController::class, 'thirdLevel'])->name('third');
     Route::get('{first}/{second}', [RoutingController::class, 'secondLevel'])->name('second');
     Route::get('{any}', [RoutingController::class, 'root'])->name('any');
 });
-

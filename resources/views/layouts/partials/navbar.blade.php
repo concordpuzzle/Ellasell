@@ -3,8 +3,7 @@
     <nav class="navbar navbar-expand-lg topnav-menu z-10 {{$topbarColor}} {{$sticky === true ? 'sticky' : ''}}">
         <div class="container {{$fixedWidth !== true ? '-fluid' : ''}}">
             <a class="navbar-brand logo" href="{{ route('any', 'index') }}">
-                <img src="/images/logo.png" height="30" class="align-top logo-dark" alt=""/>
-                <img src="/images/logo-light.png" height="30" class="align-top logo-light" alt=""/>
+                <span class="playwrite-pt-logo" style="font-size: 24px;">ellasell</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content"
                     aria-controls="topnav-menu-content" aria-expanded="false" aria-label="Toggle navigation">
