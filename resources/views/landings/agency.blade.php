@@ -36,7 +36,7 @@
                         <a href="#" class="btn btn-warning">
                             <i class="icon-xxs me-2" data-feather="arrow-down"></i> Try Now, For Free
                         </a>
-                        <a href="#" class="btn btn-outline-warning ms-2">
+                        <a href="#" class="btn btn-outline-secondary ms-2">
                             Learn More
                         </a>
                     </div>
@@ -91,7 +91,7 @@
                                     @svg('/duotone-icons/design/Color-profile')
                             </span>
 
-                            <h4 class="mt-3 mb-2 fw-semibold">User Experience Design</h4>
+                            <h4 class="mt-3 mb-2 fw-semibold">All Sales Channels, One Lens</h4>
                             <p class="text-muted mb-0">
                                 Following the best process that a great design teams use to create products that provide
                                 meaningful and relevant experiences to users
@@ -108,7 +108,7 @@
                                  @svg('/duotone-icons/design/Image')
                             </span>
 
-                            <h4 class="mt-3 mb-2 fw-semibold">Front End Development</h4>
+                            <h4 class="mt-3 mb-2 fw-semibold">Set Goals And Achieve Them With AI</h4>
                             <p class="text-muted mb-0">
                                 Development of the websites for businesses of all sizes and shapes and covering a small
                                 to enterprise organizations
@@ -125,7 +125,7 @@
                                  @svg('/duotone-icons/design/Component')
                             </span>
 
-                            <h4 class="mt-3 mb-2 fw-semibold">Brand Identitty Design</h4>
+                            <h4 class="mt-3 mb-2 fw-semibold">Discover Data Trends You Never Knew</h4>
                             <p class="text-muted mb-0">
                                 Making a new identities for your brand with an effective collaboration and considered
                                 design. We treat your brand like our own
