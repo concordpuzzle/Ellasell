@@ -6,7 +6,7 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+PT:wght@100..400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA:wght@100..400&display=swap" rel="stylesheet">
 
 <!-- title -->
 <title>{{ $title ?? 'Prompt' }}</title>
@@ -18,8 +18,8 @@
 
 <!-- Custom Logo Font Style -->
 <style>
-.playwrite-pt-logo {
-    font-family: "Playwrite PT", cursive;
+.playwrite-de-va-logo {
+    font-family: "Playwrite DE VA", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
