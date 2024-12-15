@@ -519,9 +519,14 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-             <!-- Accordions Start -->
-             <div class="row">
+    </section>
+    <!-- features end -->
+    <section class="section py-4 pt-sm-6 pb-sm-0 position-relative" id="section-download" data-aos="fade-up">
+        <div class="container">
+     <!-- Accordions Start -->
+     <div class="row">
                         <div class="col">
                             <div class="card" id="accordions">
                                 <div class="card-body">
@@ -665,13 +670,9 @@
                         </div>
                     </div>
                     <!-- Accordions End -->
+                    </div>
 
-        </div>
-
-    </section>
-    <!-- features end -->
-
-    
+</section>
     <!-- cta start -->
     <section class="section py-4 pt-sm-6 pb-sm-0 position-relative" id="section-download" data-aos="fade-up">
         <div class="container text-center">
