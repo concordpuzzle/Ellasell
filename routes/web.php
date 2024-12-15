@@ -16,9 +16,9 @@ use App\Http\Controllers\RoutingController;
 
 require __DIR__ . '/auth.php';
 
-// Set agency page as the main route
+// Set index page as the main route
 Route::get('/', function () {
-    return view('landings.agency');
+    return view('index');
 })->name('root');
 
 Route::group(['prefix' => '/'], function () {
