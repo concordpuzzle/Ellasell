@@ -12,9 +12,9 @@
                 <div class="row align-items-center text-center text-sm-start">
                     <div class="col-lg-6">
                         <div class="mb-lg-0">
-                            <h1 class="hero-title">A modern look and feel for your
+                            <h1 class="hero-title">
                                 <span class="highlight highlight-success d-inline-block" data-toggle="typed"
-                                      data-strings='["saas^500", "mobile app^500", "software^500", "startup^500", "agency^500", "portfolio^500", "coworking^500", "crypto^500", "marketing^500"]'></span>
+                                      data-strings='["Unite your shop data.^500", "Optimize your strategy.^500", "Boost your sales.^500", "All in one place.^500"]'></span>
                             </h1>
 
                             <p class="fs-18 text-muted pt-3">

@@ -6,7 +6,8 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA:wght@100..400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA:wght@100..400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 
 <!-- title -->
 <title>{{ $title ?? 'Prompt' }}</title>
@@ -29,5 +30,13 @@
     -webkit-font-feature-settings: "liga" 1, "calt" 1;
     -moz-font-feature-settings: "liga" 1, "calt" 1;
     text-rendering: optimizeLegibility;
+}
+
+/* Set Inter as the default body font */
+body {
+    font-family: "Inter", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 </style>
