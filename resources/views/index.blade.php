@@ -12,10 +12,11 @@
                 <div class="row align-items-center text-center text-sm-start">
                     <div class="col-lg-6">
                         <div class="mb-lg-0">
-                            <h1 class="hero-title">
+                            <h2 class="hero-title" style="font-size:40px!important;">
+                            Use AI with your sales data to
                                 <span class="highlight highlight-success d-inline-block" data-toggle="typed"
-                                      data-strings='["Unite your shop data.^500", "Optimize your strategy.^500", "Boost your sales.^500", "All in one place.^500"]'></span>
-                            </h1>
+                                      data-strings='["get a big picture view.^500", "grow volume.^500", "develop products.^500", "break into markets.^500"]'></span>
+                            </h2>
 
                             <p class="fs-18 text-muted pt-3">
                             Connect your store effortlessly, and let AI handle the insights and strategies for smarter, faster sales growth.
