@@ -18,13 +18,12 @@
                             </h1>
 
                             <p class="fs-18 text-muted pt-3">
-                                Make your website or web application stand out with high-quality landing pages designed
-                                and developed by professionals.
+                            Connect your store effortlessly, and let AI handle the insights and strategies for smarter, faster sales growth.
                             </p>
 
                             <div class="pt-3 pt-sm-5 mb-4 mb-lg-0">
                                 <a href="#demos" class="btn btn-primary" data-toggle="smooth-scroll">
-                                    View Demos
+                                    Connect Your Store
                                     <span class="ms-2 icon icon-xxs" data-feather="arrow-down"></span>
                                 </a>
                             </div>
