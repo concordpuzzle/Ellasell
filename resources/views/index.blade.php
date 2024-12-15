@@ -1,7 +1,7 @@
 @extends('layouts.base', ['title' => 'Prompt | Premium Landing Pages'])
 
 @section('content')
-    <div class="bg-gradient2">
+    <div class="bg-gradient3">
 
         @include('layouts.partials.navbar', ['hideSearch' => true,'fixedWidth' => true, 'sticky' => true,'topbarColor' => 'navbar-light', 'classList' => 'mx-auto','ctaButtonClass' => 'btn-outline-primary btn-sm' ])
 
@@ -14,7 +14,7 @@
                         <div class="mb-lg-0">
                             <h2 class="hero-title" style="font-size:40px!important;">
                             Use AI with your sales data to
-                                <span class="highlight highlight-success d-inline-block" data-toggle="typed"
+                                <span class=" d-inline-block" data-toggle="typed"
                                       data-strings='["get a big picture view.^500", "grow volume.^500", "develop products.^500", "break into markets.^500"]'></span>
                             </h2>
 
