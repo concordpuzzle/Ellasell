@@ -1,7 +1,7 @@
 @extends('layouts.base', ['title' => 'Prompt | Premium Landing Pages'])
 
 @section('content')
-    <div class="bg-gradient3">
+    <div class="bg-gradient2">
 
         @include('layouts.partials.navbar', ['hideSearch' => true,'fixedWidth' => true, 'sticky' => true,'topbarColor' => 'navbar-light', 'classList' => 'mx-auto','ctaButtonClass' => 'btn-outline-primary btn-sm' ])
 
