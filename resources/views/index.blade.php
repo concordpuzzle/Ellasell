@@ -14,7 +14,7 @@
                         <div class="mb-lg-0">
                             <h2 class="hero-title" style="font-size:40px!important;">
                             Use AI with your sales data to
-                                <span class=" d-inline-block" data-toggle="typed"
+                                <span style="text-decoration:underline;" class="d-inline-block" data-toggle="typed"
                                       data-strings='["get a big picture view.^500", "grow volume.^500", "develop products.^500", "break into markets.^500"]'></span>
                             </h2>
 
