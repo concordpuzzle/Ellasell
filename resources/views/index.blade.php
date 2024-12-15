@@ -22,7 +22,7 @@
                             </p>
 
                             <div class="pt-3 pt-sm-5 mb-4 mb-lg-0">
-                                <a href="#demos" class="btn btn-primary" data-toggle="smooth-scroll">
+                                <a href="#demos" class="btn btn-warning" data-toggle="smooth-scroll">
                                     Connect Your Store
                                     <span class="ms-2 icon icon-xxs" data-feather="arrow-right"></span>
                                 </a>
@@ -535,7 +535,7 @@
                     </p>
 
                     <div class="text-center mt-5">
-                        <a href="" class="btn btn-primary">
+                        <a href="" class="btn btn-warning">
                             Connect Your Shop                                     <span class="ms-2 icon icon-xxs" data-feather="arrow-right"></span>
                         </a>
                     </div>
