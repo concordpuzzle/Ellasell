@@ -14,7 +14,7 @@
                         <div class="mb-lg-0">
                             <h2 class="hero-title" style="font-size:40px!important;">
                             Use AI with your sales data to
-                                <span style="text-decoration:underline;" class="d-inline-block" data-toggle="typed"
+                                <span class="d-inline-block" data-toggle="typed"
                                       data-strings='["get a big picture view.^500", "grow volume.^500", "develop products.^500", "break into markets.^500"]'></span>
                             </h2>
 
@@ -62,291 +62,58 @@
         <!-- hero end -->
     </div>
 
-    <!-- demos start -->
-    <section class="mt-5 position-relative overflow-hidden features-1 py-5" id="demos">
+
+    <!-- feature start -->
+    <section class="py-5 position-relative">
         <div class="container">
-            <div class="row">
-                <div class="col text-center" data-aos="fade-up">
-                    <span class="badge rounded-pill badge-soft-primary px-2 py-1">Demos</span>
-                    <h1 class="display-4 fw-semibold">Landing Pages</h1>
-                    <p class="text-muted mx-auto">Modern landing pages available for every need</p>
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <span class="badge rounded-pill badge-soft-primary px-2 py-1">Features</span>
+                    <h1 class="display-5 fw-semibold">Bring your store to the next level.</h1>
+                    <p class="text-muted mx-auto">
+                        Start working with <span class="text-primary fw-bold">Prompt</span> to manage your marketing
+                        better.
+                    </p>
                 </div>
             </div>
 
-            <!-- showcase start -->
-            <div class="row mt-2" data-aos="fade-up" data-duration="600">
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'app']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-app.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Mobile App</h4>
-                    </a>
+            <div class="row pt-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="300">
+                    <span class="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary">
+                        @svg('/duotone-icons/communication/Sending mail')
+                    </span>
+
+                    <h4 class="mt-3 mb-2 fw-semibold">Insight Reports</h4>
+                    <p class="mb-4 pb-3 text-muted">
+                        Praesent ipsum libero, sollicitudin elementum et, condimentum non augue.
+                    </p>
                 </div>
 
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'saas']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-saas.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Saas Modern</h4>
-                    </a>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="600">
+                    <span class="bg-soft-orange avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-orange">
+                        @svg('/duotone-icons/shopping/Chart-line#1')
+                    </span>
+
+                    <h4 class="mt-3 mb-2 fw-semibold">Explore with AI</h4>
+                    <p class="mb-4 pb-3 text-muted">
+                        Mauris dapibus blandit hendrerit. Proin auctor est at bibendum odio faucibus sodales.
+                    </p>
                 </div>
 
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'saas2']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-saas2.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Saas Classic</h4>
-                    </a>
-                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="900">
+                    <span class="bg-soft-info avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-info">
+                        @svg('/duotone-icons/code/Settings#4')
+                    </span>
 
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'startup']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-startup.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Startup</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'software']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-software.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Software</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'agency']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-agency.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Agency</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'coworking']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-coworking.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Co-Working</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'crypto']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-crypto.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Crypto</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'marketing']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-marketing.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Marketing</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'landings' , 'portfolio']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/landing/home-portfolio.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Portfolio</h4>
-                    </a>
+                    <h4 class="mt-3 mb-2 fw-semibold">Strategize & Do</h4>
+                    <p class="mb-4 pb-3 text-muted">
+                        Fusce mattis nibh vel tortor scelerisque, a pretium dolor posuere.
+                    </p>
                 </div>
             </div>
-            <!-- showcase end-->
         </div>
     </section>
-    <!-- demos end -->
-
-    <!-- secondary pages start -->
-    <section class="position-relative overflow-hidden features-1 py-5" id="secondary-pages">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center" data-aos="fade-up">
-                    <span class="badge rounded-pill badge-soft-primary px-2 py-1">Inner Pages</span>
-                    <h1 class="display-4 fw-semibold">Inner Pages</h1>
-                </div>
-            </div>
-
-            <!-- showcase start -->
-            <div class="row mt-2" data-aos="fade-up" data-duration="600">
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'company']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/company.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Company</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'contact']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/contact.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Contact</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'career']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/career.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Career</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'blog']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/blog.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Blog</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'blog-post']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/blog-post.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Blog-Post</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'account' , 'dashboard']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/dashboard.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Dashboard</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'account' , 'settings']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/settings.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Settings</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'portfolio-grid']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/portfolio-grid.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Portfolio Grid</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'portfolio-masonry']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/portfolio-masonry.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Portfolio Masonry</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'portfolio-item']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/portfolio-item.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Portfolio-item</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'pricing']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/pricing.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Pricing</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'pages' , 'help-desk']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/help.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center mt-3">Help</h4>
-                    </a>
-                </div>
-            </div>
-            <!-- showcase end-->
-        </div>
-    </section>
-    <!-- secondary pages end -->
-
-    <!-- Auth pages start -->
-    <section class="position-relative overflow-hidden features-1 py-5" id="auth-pages">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center" data-aos="fade-up">
-                    <span class="badge rounded-pill badge-soft-primary px-2 py-1">Account Pages</span>
-                    <h1 class="display-4 fw-semibold">Inner Pages</h1>
-                </div>
-            </div>
-
-            <!-- showcase start -->
-            <div class="row mt-2" data-aos="fade-up" data-duration="600">
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'auth' , 'login']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/auth-login.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center">login</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'auth' , 'signup']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/auth-signup.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center">signup</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'auth' , 'forgot-password']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/auth-password.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center">Forget Password</h4>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="{{ route('second', [ 'auth' , 'confirm']) }}" target="_blank" class="mt-4">
-                        <div class="shadow p-2 rounded-sm border">
-                            <img src="/images/demo/pages/auth-confirm.jpg" class="img-fluid" alt="demo-img"/>
-                        </div>
-                        <h4 class="text-center">Confirm Account</h4>
-                    </a>
-                </div>
-            </div>
-            <!-- showcase end-->
-        </div>
-    </section>
-    <!-- Auth pages end -->
+    <!-- feature end -->
 
     <!-- features start -->
     <section class="my-lg-5 py-5 py-sm-7 bg-gradient2 position-relative" data-aos="fade-up">
@@ -355,7 +122,7 @@
             <div class="row">
                 <div class="col text-center">
                     <span class="badge rounded-pill badge-soft-primary px-2 py-1">Features</span>
-                    <h1 class="display-4 fw-semibold">Why Choose Prompt</h1>
+                    <h1 class="display-4 fw-semibold">Why Choose Ellasell</h1>
                     <p class="text-secondary mx-auto">A modern design, fresh look and feel</p>
                 </div>
             </div>
@@ -371,7 +138,7 @@
                                 </span>
 
                                 <div class="flex-grow-1">
-                                    <h5 class="m-0">Fully Responsive</h5>
+                                    <h5 class="m-0">Private & Secure</h5>
                                 </div>
                             </div>
                         </div>
@@ -388,7 +155,7 @@
                                 </span>
 
                                 <div class="flex-grow-1">
-                                    <h5 class="m-0">Cross-browser compatible</h5>
+                                    <h5 class="m-0">Built for Small Businesses</h5>
                                 </div>
                             </div>
                         </div>
@@ -411,7 +178,7 @@
                                 </span>
 
                                 <div class="flex-grow-1">
-                                    <h5 class="m-0">Based on latest Bootstrap v5.3.2</h5>
+                                    <h5 class="m-0">Actionable Sales Plans</h5>
                                 </div>
                             </div>
                         </div>
@@ -428,7 +195,7 @@
                                 </span>
 
                                 <div class="flex-grow-1">
-                                    <h5 class="m-0">Sass Powered</h5>
+                                    <h5 class="m-0">Seamless Integration</h5>
                                 </div>
                             </div>
                         </div>
@@ -445,7 +212,7 @@
                                 </span>
 
                                 <div class="flex-grow-1">
-                                    <h5 class="m-0">Easy to customize</h5>
+                                    <h5 class="m-0">Sales Optimization Tools</h5>
                                 </div>
                             </div>
                         </div>
@@ -462,7 +229,7 @@
                                 </span>
 
                                 <div class="flex-grow-1">
-                                    <h5 class="m-0">Developer Friendly</h5>
+                                    <h5 class="m-0">Insightful AI Checkups</h5>
                                 </div>
                             </div>
                         </div>
@@ -479,7 +246,7 @@
                                 </span>
 
                                 <div class="flex-grow-1">
-                                    <h5 class="m-0">Clean & Easy to Understand Code</h5>
+                                    <h5 class="m-0">Easy-to-Use Platform</h5>
                                 </div>
                             </div>
                         </div>
@@ -711,9 +478,7 @@
                     </ul>
                     <p class="mt-2 fs-14">
                         <script>document.write(new Date().getFullYear())</script>
-                        © Prompt. All rights reserved. Crafted by <a href="https://coderthemes.com/">Coderthemes</a></p>
-
-                    <img src="/images/logo.png" height="30" class="mt-2 mb-4" alt=""/>
+                        © Sybl, LLC. All rights reserved.</p>
                 </div>
             </div>
         </div>
